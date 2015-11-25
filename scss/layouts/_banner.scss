@@ -1,0 +1,32 @@
+/* Banner */
+
+.banner{
+    margin-top: 10px;
+   position:relative;
+}
+
+.banner img {
+     width:70%;
+    height: 70%;
+}
+
+.banner .container {
+    position:absolute;
+    top:30%;
+    left: 30%;
+    transform: translate(-50%) translate(-50%);
+}
+
+.banner h2 {
+    font-size: 28px;
+    
+}
+
+.banner a {
+    display: block;
+    width:100px;
+    color:#fff;
+    text-decoration: none;
+    padding:10px;
+    margin-top:10px;
+}

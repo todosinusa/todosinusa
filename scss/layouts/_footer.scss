@@ -1,0 +1,52 @@
+
+.lockup{
+    background:url($footer-image) repeat top center;
+    padding:20px 30px;
+    height: auto;
+    width: 100%;
+    margin-bottom: 0;
+
+ 
+    
+img.footer-logo{
+    height: auto;
+    width: 28%;
+    float: left;
+    margin-right: 5px;
+    display: block;
+    opacity: 0.9;
+}
+
+    .copyright{ 
+        font-size:10px;
+        word-spacing:.3px;
+        text-transform: uppercase;
+        color:rgba(255,255,255, .6);
+        float: right;
+        margin-right:15px;
+        padding-top: 5px;
+    }
+
+    
+    nav{
+        word-spacing: 15px;
+        float: right;
+        
+        span{
+        margin-right:3px;
+        }
+
+        a{
+            color:rgba(255,255, 255, .9);
+            font-size:17px;
+            font-weight: 500;
+            
+        }
+        
+        a:hover {
+            text-decoration: underline;
+            color:rgba(255,255, 255, 1);
+        }
+    }
+
+}
